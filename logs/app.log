@@ -1,0 +1,4 @@
+2024-08-14 11:24:36,646 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-14 11:24:36,964 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-14 11:25:26,172 INFO: Received request to merge PDFs [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:29]
+2024-08-14 11:25:26,188 INFO: PDFs merged successfully [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:35]

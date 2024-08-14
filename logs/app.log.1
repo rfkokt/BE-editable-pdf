@@ -1,0 +1,104 @@
+2024-08-06 14:29:23,033 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:29:26,969 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:29:26,988 INFO: Resizing PDF with scale factor: 1.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:29:26,991 ERROR: Error in resize_pdf_api: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform' [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:59]
+2024-08-06 14:29:26,997 ERROR: Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 29, in resize_pdf
+    page.apply_transform(matrix)
+AttributeError: 'Page' object has no attribute 'apply_transform'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py", line 52, in resize_pdf_api
+    resized_pdf = resize_pdf(pdf_file, scale_factor)
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 38, in resize_pdf
+    raise RuntimeError(f"Terjadi kesalahan saat mengubah ukuran PDF: {str(e)}")
+RuntimeError: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform'
+ [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:60]
+2024-08-06 14:29:30,991 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:29:31,233 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:29:45,947 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:29:45,959 INFO: Resizing PDF with scale factor: 1.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:29:45,963 ERROR: Error in resize_pdf_api: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform' [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:59]
+2024-08-06 14:29:45,969 ERROR: Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 29, in resize_pdf
+    page.apply_transform(matrix)
+AttributeError: 'Page' object has no attribute 'apply_transform'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py", line 52, in resize_pdf_api
+    resized_pdf = resize_pdf(pdf_file, scale_factor)
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 38, in resize_pdf
+    raise RuntimeError(f"Terjadi kesalahan saat mengubah ukuran PDF: {str(e)}")
+RuntimeError: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform'
+ [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:60]
+2024-08-06 14:31:06,661 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:31:18,834 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:31:19,068 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:31:22,938 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:31:22,993 INFO: Resizing PDF with scale factor: 1.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:31:23,385 INFO: PDF resized successfully [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:53]
+2024-08-06 14:33:42,683 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:33:46,409 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:33:46,473 INFO: Resizing PDF with scale factor: 1.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:33:46,476 ERROR: Error in resize_pdf_api: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform' [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:59]
+2024-08-06 14:33:46,483 ERROR: Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 32, in resize_pdf
+    page.apply_transform(matrix)
+AttributeError: 'Page' object has no attribute 'apply_transform'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py", line 52, in resize_pdf_api
+    resized_pdf = resize_pdf(pdf_file, scale_factor)
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 41, in resize_pdf
+    raise RuntimeError(f"Terjadi kesalahan saat mengubah ukuran PDF: {str(e)}")
+RuntimeError: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform'
+ [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:60]
+2024-08-06 14:33:47,828 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:33:47,893 INFO: Resizing PDF with scale factor: 1.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:33:47,896 ERROR: Error in resize_pdf_api: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform' [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:59]
+2024-08-06 14:33:47,899 ERROR: Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 32, in resize_pdf
+    page.apply_transform(matrix)
+AttributeError: 'Page' object has no attribute 'apply_transform'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py", line 52, in resize_pdf_api
+    resized_pdf = resize_pdf(pdf_file, scale_factor)
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 41, in resize_pdf
+    raise RuntimeError(f"Terjadi kesalahan saat mengubah ukuran PDF: {str(e)}")
+RuntimeError: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform'
+ [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:60]
+2024-08-06 14:33:52,295 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:33:52,532 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:33:59,658 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:33:59,671 INFO: Resizing PDF with scale factor: 1.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:33:59,674 ERROR: Error in resize_pdf_api: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform' [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:59]
+2024-08-06 14:33:59,683 ERROR: Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 32, in resize_pdf
+    page.apply_transform(matrix)
+AttributeError: 'Page' object has no attribute 'apply_transform'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py", line 52, in resize_pdf_api
+    resized_pdf = resize_pdf(pdf_file, scale_factor)
+  File "/mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/resize.py", line 41, in resize_pdf
+    raise RuntimeError(f"Terjadi kesalahan saat mengubah ukuran PDF: {str(e)}")
+RuntimeError: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'apply_transform'
+ [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:60]
+2024-08-06 14:35:08,176 INFO: Application startup [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:24]
+2024-08-06 14:35:11,073 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:35:11,087 INFO: Resizing PDF with scale factor: 1.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:35:11,198 INFO: PDF resized successfully [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:53]
+2024-08-06 14:35:34,310 INFO: Received request to resize PDF [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:45]
+2024-08-06 14:35:34,373 INFO: Resizing PDF with scale factor: 10.0 [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:51]
+2024-08-06 14:35:34,375 ERROR: Error in resize_pdf_api: Terjadi kesalahan saat mengubah ukuran PDF: 'Page' object has no attribute 'transform' [in /mnt/c/Users/rifki/OneDrive/Documents/WSL/combinePdf/backend_python/app.py:59]
